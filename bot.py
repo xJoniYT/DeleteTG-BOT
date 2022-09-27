@@ -4,7 +4,7 @@ from moodle import delete
 import random
 from config import *
 
-#created by anonedev
+#created by xJoniYT
 bot = Client("bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 users = {}
@@ -127,7 +127,7 @@ async def messages_control(c: Client, m: Message):
 								pass
 							
 							if len(txtlines) == delurls:
-								await msgcheck.edit('TXT eliminado de la nube exitosamente✅\nAutor👨‍💻: @anonedev')
+								await msgcheck.edit('TXT eliminado de la nube exitosamente✅\nAutor👨‍💻: @xJoniYT')
 								break
 					else:
 						await msgcheck.edit("Credenciales incorrectas❌")
